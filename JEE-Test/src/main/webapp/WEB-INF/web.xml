@@ -29,6 +29,10 @@
     <servlet-name>DeleteStudent</servlet-name>
     <servlet-class>DeleteStudentServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>JSON</servlet-name>
+    <servlet-class>JSONServlet</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>
@@ -53,6 +57,11 @@
   <servlet-mapping>
     <servlet-name>DeleteStudent</servlet-name>
     <url-pattern>/delete-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>JSON</servlet-name>
+    <url-pattern>/json</url-pattern>
   </servlet-mapping>
 
 </web-app>

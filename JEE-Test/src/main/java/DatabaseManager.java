@@ -112,7 +112,6 @@ public class DatabaseManager {
                 student.setVarsta(rs.getInt("varsta"));
                 student.setAnStudii(rs.getInt("an_studii"));
                 student.setFacultate(rs.getString("facultate"));
-                // Adăugăm studentul la lista de studenți
                 studentList.add(student);
             }
         } catch (SQLException e) {
@@ -169,7 +168,6 @@ public class DatabaseManager {
                 student.setVarsta(rs.getInt("varsta"));
                 student.setAnStudii(rs.getInt("an_studii"));
                 student.setFacultate(rs.getString("facultate"));
-                // Adăugăm studentul la lista de studenți
                 studentList.add(student);
             }
         } catch (SQLException e) {
@@ -226,7 +224,6 @@ public class DatabaseManager {
                 student.setVarsta(rs.getInt("varsta"));
                 student.setAnStudii(rs.getInt("an_studii"));
                 student.setFacultate(rs.getString("facultate"));
-                // Adăugăm studentul la lista de studenți
                 studentList.add(student);
             }
         } catch (SQLException e) {
@@ -283,7 +280,6 @@ public class DatabaseManager {
                 student.setVarsta(rs.getInt("varsta"));
                 student.setAnStudii(rs.getInt("an_studii"));
                 student.setFacultate(rs.getString("facultate"));
-                // Adăugăm studentul la lista de studenți
                 studentList.add(student);
             }
         } catch (SQLException e) {
@@ -340,7 +336,6 @@ public class DatabaseManager {
                 student.setVarsta(rs.getInt("varsta"));
                 student.setAnStudii(rs.getInt("an_studii"));
                 student.setFacultate(rs.getString("facultate"));
-                // Adăugăm studentul la lista de studenți
                 studentList.add(student);
             }
         } catch (SQLException e) {
@@ -397,7 +392,6 @@ public class DatabaseManager {
                 student.setVarsta(rs.getInt("varsta"));
                 student.setAnStudii(rs.getInt("an_studii"));
                 student.setFacultate(rs.getString("facultate"));
-                // Adăugăm studentul la lista de studenți
                 studentList.add(student);
             }
         } catch (SQLException e) {

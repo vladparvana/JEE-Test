@@ -12,5 +12,8 @@
 <p>
 <a href="./get-students">Toti studentii</a>
 </p>
+<p>
+<a href="./json">Export JSON</a>
+</p>
 </body>
 </html>
